@@ -53,34 +53,6 @@ Depois acesse:
 http://localhost:8000
 ```
 
-## Como exportar para Web no Godot
-
-1. Abra o projeto no Godot.
-2. Instale os export templates em `Project > Install Export Templates`.
-3. Use renderer `Compatibility` para Web.
-4. Va em `Project > Export`.
-5. Selecione o preset `Web`.
-6. Exporte para:
-
-```text
-build/web/index.html
-```
-
-Para publicar no GitHub Pages, copie os arquivos exportados para `docs/`.
-
-## GitHub Pages
-
-Este repositorio usa a pasta `docs/` como build Web publicado.
-
-Configuracao recomendada:
-
-```text
-Settings > Pages
-Build and deployment: Deploy from a branch
-Branch: main
-Folder: /docs
-```
-
 ## Tecnologias
 
 - Godot 4.6
@@ -101,7 +73,3 @@ systems/     Spawner e GameManager
 ui/          HUD e menus
 docs/        Build Web para GitHub Pages
 ```
-
-## Status
-
-Projeto em desenvolvimento. A versao Web em `docs/` e a build publicada do jogo.
