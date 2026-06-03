@@ -2,8 +2,8 @@
 
 Um shoot 'em up 2D desenvolvido na Godot, onde você controla um boto que protege o rio contra ondas de poluição, inimigos aquáticos e chefes cada vez mais perigosos.
 
-Jogue a versão Web:
-https://jonnaes.github.io/Boto-Guardiao/
+[Jogue a versão Web AQUI](https://joaolorena0.github.io/Boto-Guardiao/)
+
 
 ## Sobre o Jogo
 
