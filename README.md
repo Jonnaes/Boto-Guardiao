@@ -1,75 +1,66 @@
-# Boto Guardiao
+# Boto Guardião
 
-Um shoot 'em up 2D feito em Godot, onde voce controla um boto que protege o rio contra ondas de poluicao, inimigos aquaticos e chefes cada vez mais perigosos.
+Um shoot 'em up 2D desenvolvido na Godot, onde você controla um boto que protege o rio contra ondas de poluição, inimigos aquáticos e chefes cada vez mais perigosos.
 
-Jogue a versao Web:
-
+Jogue a versão Web:
 https://jonnaes.github.io/Boto-Guardiao/
 
-## Sobre o jogo
+## Sobre o Jogo
 
-Em Boto Guardiao, o objetivo e sobreviver as ondas, derrotar inimigos e impedir que a poluicao tome conta do rio. A cada progresso, o jogo ganha novas mecanicas: inimigos com funcoes diferentes, chefes com fases, upgrades permanentes, missoes, combo, placar de lideres e eventos de onda.
+Em Boto Guardião, o objetivo é sobreviver às ondas, derrotar inimigos e impedir que a poluição tome conta do rio. A cada progresso, o jogo ganha novas mecânicas: inimigos com funções diferentes, chefes com fases, upgrades permanentes, missões, sistema de combo, placar de líderes e eventos de onda.
 
 ## Controles
 
-| Acao | Tecla |
-| --- | --- |
-| Mover | WASD ou setas |
-| Atirar | Espaco ou mouse |
-| Dash | Shift |
-| Especial | E |
-| Pausar | Esc |
+Ação       | Tecla
+---------- | ------------------
+Mover      | WASD ou setas
+Atirar     | Espaço ou mouse
+Dash       | Shift
+Especial   | E
+Pausar     | Esc
 
 ## Recursos
 
-- Waves progressivas por capitulos.
-- Bosses com barra de vida e padroes por fase.
+- Ondas (waves) progressivas por capítulos.
+- Chefes (bosses) com barra de vida e padrões por fase.
 - Upgrades permanentes estilo roguelike.
-- Power-ups temporarios estrategicos.
-- Missoes variadas.
+- Power-ups temporários estratégicos.
+- Missões variadas.
 - Sistema de combo e score.
-- Placar de lideres local.
-- Inimigos com papeis claros: rapido, tanque, atirador e perseguidor.
-- Perolas de risco/recompensa para ganhar pontos extras.
+- Placar de líderes local.
+- Inimigos com papéis claros: rápido, tanque, atirador e perseguidor.
+- Pérolas de risco/recompensa para ganhar pontos extras.
 - HUD customizado com fonte pixelada.
-- Musica dinamica em camadas.
-- SFX para tiros, impactos, power-ups, boss, poluicao e game over.
-- Exportacao Web pronta via GitHub Pages.
+- Música dinâmica em camadas.
+- SFX para tiros, impactos, power-ups, boss, poluição e game over.
+- Exportação Web pronta via GitHub Pages.
 
-## Como jogar localmente pela Web
+## Como Jogar Localmente pela Web
 
-Depois de exportar o projeto para Web, sirva a pasta `docs` ou `build/web` com um servidor HTTP. Abrir o `index.html` direto no navegador pode nao funcionar.
+Depois de exportar o projeto para Web, sirva a pasta `docs` ou `build/web` com um servidor HTTP. Abrir o `index.html` direto no navegador pode não funcionar.
 
 Exemplo:
-
-```powershell
 cd docs
 python -m http.server 8000
-```
 
 Depois acesse:
-
-```text
 http://localhost:8000
-```
 
 ## Tecnologias
 
-- Godot 4.6
+- Godot 4.x
 - GDScript
 - Export Web/HTML5
 
-## Estrutura principal
+## Estrutura Principal
 
-```text
-Audio/       SFX e musica
+Audio/       SFX e música
 Enemies/     Cenas dos inimigos
 Player/      Cena e tiro do player
-PowerUps/    Power-ups coletaveis
+PowerUps/    Power-ups coletáveis
 Sprites/     Artes do jogo
 main/        Cena principal
-scripts/     Logica do jogo
+scripts/     Lógica do jogo
 systems/     Spawner e GameManager
 ui/          HUD e menus
 docs/        Build Web para GitHub Pages
-```
